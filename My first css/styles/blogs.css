@@ -1,0 +1,57 @@
+.header{
+    text-decoration: white;
+    height: 300px ;
+    background-image: url('pexels-jplenio-1632790.jpg');
+    /* background-image: url('../girl.png'); */
+    /* background-image: url('../Images/house.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-size: 300px;
+    /* background-size: contain; */
+    background-size: cover;
+}
+.Welcome{
+    color: white;
+}
+
+h3{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bolg{
+    text-align: justify;
+    padding: 10px;
+    margin: 40px;
+    border: 10px solid seagreen;
+    /* first value for x axis; after giving second value it will show solid shadow; third value make ray of shadow  */
+    box-shadow: 10px 10px 20px blueviolet;
+    
+}
+
+.second{
+    /* totally vanish */
+    /* display: none; */
+    /* content vanish but space remain same */
+    /* visibility:hidden; */
+}
+
+.inventore{
+    border: 2px solid aqua ;
+    /* make a separate space in different line */
+    /* display: block; */
+    margin: 20px;
+    display: inline-block;
+
+}
+li{
+    display: inline;
+}
+.dolor{
+    /* display: block; */
+    display: inline-block;
+    border: 2px solid peru;
+    height: 60px;
+}

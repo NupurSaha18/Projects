@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selector</title>
+    <style>
+        *{
+            width: 500px;
+            margin: 0;
+        }
+        p{
+            color: red;
+        }
+        /* you can use multiple selector or tag using coma(,) */
+        #fifth, li{ 
+            font-size: 26px;
+        }
+        .holud, .yellow{
+            background-color: yellow;
+        }
+        .bold{
+            font-weight: 800;
+        }
+        input[type="password"] {
+            color: red;
+        }
+        .css{
+            color: green;
+            font-weight: bolder;
+        }
+        .blog{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body> 
+    <h3>Explore Mixed Selector</h3>
+    <p>My first <span class="css">line CSS</span></p>
+    <p class="yellow">My second line CSS</p>
+    <p>My third line CSS</p>
+    <p class="yellow bold">My forth line CSS</p>
+    <p class="holud" id="fifth" >My fifth line CSS</p>
+    <p class="bold">My sixth line CSS</p>
+    <p>My seventh line CSS</p>
+    <ol>
+        <li>Element selector</li>
+        <li>Inline selector</li>
+        <li class="holud bold">Class selector</li>
+        <li>Universal selector</li>
+    </ol>
+
+    <div class="blog">
+        <h3>My blog</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur eveniet expedita perspiciatis ab error eius hic molestiae id officia, sint non quas pariatur recusandae exercitationem rem nesciunt quaerat quia similique.</p>
+    </div>
+    <form action="">
+        <input type="text"> <br>
+        <input type="password">
+    </form>
+</body>
+</html>
