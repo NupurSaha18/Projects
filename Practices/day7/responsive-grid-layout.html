@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid layout</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            column-gap: 5px;
+            row-gap: 5px;
+            padding: 300px;
+            
+        }
+
+        section div {
+            border: 2px solid red;
+            padding: 200px 300px;
+            font-size: 3em;
+        }
+
+        .box1 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-color: hotpink;
+
+        }
+
+        .box2 {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: rgb(244, 157, 70);
+        }
+
+        .box3 {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            background-color: purple;
+        }
+
+        .box4 {
+            background-color: gray;
+        }
+        
+    
+    </style>
+</head>
+
+<body>
+    <section class="grid">
+        <div class="box1">No-1</div>
+        <div class="box2">No-2</div>
+        <div class="box3">No-3</div>
+        <div class="box4">No-4</div>
+    </section>
+</body>
+
+</html>
